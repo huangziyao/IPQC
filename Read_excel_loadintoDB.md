@@ -878,11 +878,11 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 # 数据库连接信息
-database = 'RedCert'
-user = 'bstro'
-password = 'xLd8iaH#'
-host = '10.64.20.225'
-port = '30500'
+database = ''
+user = ''
+password = ''
+host = ''
+port = ''
 
 # 创建 SQLAlchemy 引擎
 engine = create_engine(f'postgresql://{user}:{password}@{host}:{port}/{database}')
